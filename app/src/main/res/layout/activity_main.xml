@@ -7,10 +7,16 @@
     tools:context="com.example.lenovo.myapplication.MainActivity">
     
     <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
-        android:textSize="70px"
+              android:textSize="70px"
               android:background="#ff3903"
               android:text="@string/app_text"
 
     />
+    <Button android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:textSize="40px"
+            android:background="#FF9077"
+            android:
+            android:text="确定"
 
+            tools:layout_editor_absoluteY="109dp" tools:layout_editor_absoluteX="82dp"/>
 </android.support.constraint.ConstraintLayout>
