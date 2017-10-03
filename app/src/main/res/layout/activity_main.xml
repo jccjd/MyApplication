@@ -17,5 +17,6 @@
             android:background="#FF9077"
             android:text="确定"
 
-            tools:layout_editor_absoluteY="109dp" tools:layout_editor_absoluteX="82dp"/>
+            tools:layout_editor_absoluteY="109dp" tools:layout_editor_absoluteX="82dp"
+    />
 </android.support.constraint.ConstraintLayout>
