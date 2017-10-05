@@ -26,7 +26,11 @@ public class MainActivity extends Activity {
         radioGroup.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(RadioGroup group, int checkedId) {
-
+                if (checkedId == maleradioButton.getId()) {
+                    System.out.println("选中了male");
+                } else if (checkedId == famaleradioBUtton.getId()) {
+                    System.out.println("选中了famale");
+                }
             }
         });
 
