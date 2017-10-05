@@ -7,17 +7,16 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity"
     >
+    <RadioGroup android:id="@+id/radio" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <RadioButton android:layout_width="wrap_content" android:layout_height="wrap_content"
+                             android:id="@+id/button"
+                             android:text="female"
+                />
+                <RadioButton android:layout_width="wrap_content" android:layout_height="wrap_content"
+                             android:id="@+id/button2"
+                             android:text="male"
+                />
 
-    <TextView
-            android:id="@+id/textView"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="#ff9000"
-            android:text="0"
-    />
-    <Button android:layout_width="match_parent" android:layout_height="wrap_content"
-            android:id="@+id/button"
-            android:text="➕ 一"
-    />
+    </RadioGroup>
 
 </LinearLayout>
