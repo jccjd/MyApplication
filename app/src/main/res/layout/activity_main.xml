@@ -21,5 +21,9 @@
                              android:text="male"/>
 
     </RadioGroup>
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+               android:id="@+id/imageid"
+               android:src="@drawable/qq"
+    />
 
 </LinearLayout>
