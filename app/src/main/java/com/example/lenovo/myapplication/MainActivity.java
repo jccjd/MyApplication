@@ -11,7 +11,9 @@ import android.widget.Button;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.TextView;
-
+/**
+* 单选按钮
+* */
 public class MainActivity extends Activity {
 
     private RadioGroup radioGroup;
