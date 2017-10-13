@@ -7,9 +7,46 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity"
     >
-  <TextView
+    <TextView
           android:layout_width="wrap_content"
           android:layout_height="wrap_content"
-          android:text=""
-  />
+          android:text="@string/app_username"
+    />
+    <EditText
+            android:id="@+id/username_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:width="240dp"
+            android:height="24dp"
+    />
+    <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="@string/app_password"
+    />
+    <EditText
+            android:id="@+id/password_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:width="240dp"
+            android:height="24dp"
+            android:background="@color/colorPrimary"
+    />
+    <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:orientation="horizontal">
+        <Button
+                android:id="@+id/sign_out_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sign_out_button"
+        />
+        <Button
+                android:id="@+id/sign_in_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sign_in_button"
+        />
+
+
+    </LinearLayout>
 </LinearLayout>

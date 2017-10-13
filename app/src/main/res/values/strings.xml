@@ -1,4 +1,7 @@
 <resources>
-    <string name="app_name">Sing in</string>
-    <string name="app_"></string>
+    <string name="app_name">Sign in</string>
+    <string name="app_username">username</string>
+    <string name="app_password">password</string>
+    <string name="sign_in_button">sign in</string>
+    <string name="sign_out_button">sign out</string>
 </resources>
