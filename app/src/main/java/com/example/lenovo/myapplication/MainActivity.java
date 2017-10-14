@@ -12,7 +12,7 @@ import android.widget.*;
 import static android.widget.Toast.LENGTH_LONG;
 
 /**
-* 单选按钮
+*登陆首页
 * */
 public class MainActivity extends AppCompatActivity {
 
