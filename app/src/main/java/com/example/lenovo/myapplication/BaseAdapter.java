@@ -5,6 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
+import android.widget.SimpleAdapter;
 import android.widget.Toast;
 
 import java.util.ArrayList;
@@ -13,17 +14,21 @@ import java.util.List;
 import java.util.Map;
 
 public class BaseAdapter extends AppCompatActivity {
-
     private ListView listView;
     private List<Map<String,Object>> dataList;
+    private SimpleAdapter mAdapter;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.list_item);
         initData();
-        listView = (ListView)findViewById(R.id.list_view);
-
-
+        listView = (ListView) findViewById(R.id.list_view);
+        mAdapter = new SimpleAdapter(this,dataList,R.layout.list_item,new String []{"img",
+                "title","major_material",
+                "minor_material", "price","pick"}, new int[]{R
+                .id.img_menu, R.id.tv_title, R.id.tv_major_material, R.id.tv_minor_material, R.id
+                .tv_price});
+        listView.setAdapter(mAdapter);
     }
     public void initData() {
         int[] images = {R.drawable.shuizhuroupian,R.drawable.suanlajidantang,
